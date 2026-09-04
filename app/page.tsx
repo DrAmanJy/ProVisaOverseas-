@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { countryImages, servicesData, processSteps, trustIndicators } from '@/lib/data';
 import * as Accordion from '@radix-ui/react-accordion';
 import { SmartImage } from '@/components/SmartImage';
+import LatestPPR from '@/components/LatestPPR';
 
 const faqs = [
   {
@@ -229,6 +230,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* 2.5 LATEST PPR */}
+      <LatestPPR />
 
       {/* 3. DESTINATIONS */}
       <section className="py-24 md:py-32 bg-bg-secondary">
