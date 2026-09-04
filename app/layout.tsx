@@ -15,7 +15,8 @@ const manrope = Manrope({
   variable: '--font-manrope',
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.provisaoverseas.com';
+const rawBaseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.provisaoverseas.com';
+const SITE_URL = rawBaseUrl.startsWith('http') ? rawBaseUrl : `https://${rawBaseUrl}`;
 const SITE_NAME = 'Pro Visa Overseas';
 const DEFAULT_DESCRIPTION =
   'Pro Visa Overseas is a premium immigration and visa consultancy based in Chandigarh, India. We help clients with overseas education, visitor visas, tourist visas, family migration, permanent residency, and business immigration to Australia, Canada, UK, USA, New Zealand, and Europe.';
