@@ -158,7 +158,6 @@ export function Footer() {
               Contact Us
             </h3>
             <ul className="space-y-6 text-sm font-light text-white/60">
-              {/* Phone and address commented out — will be added when finalized
               <li className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center shrink-0 text-accent">
                   <Phone className="h-4 w-4" />
@@ -167,7 +166,7 @@ export function Footer() {
                   <span className="block text-white font-medium mb-1">
                     Phone & WhatsApp
                   </span>
-                  <span>+1 (555) 123-4567</span>
+                  <a href="tel:+918427699682" className="hover:text-white transition-colors">084276 99682</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -179,13 +178,12 @@ export function Footer() {
                     Office Location
                   </span>
                   <span>
-                    2nd Floor, SECTOR-31D, SCO 37,
+                    SCO 181, 182, Second Floor,
                     <br />
-                    Sector 31, Chandigarh, 160030, India
+                    Sector 17C, Chandigarh, India
                   </span>
                 </div>
               </li>
-              */}
               <li>
                 <Link href="/contact" className="hover:text-white transition-colors flex items-center group">
                   <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all" />{" "}

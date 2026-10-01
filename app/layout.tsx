@@ -147,22 +147,19 @@ const jsonLdOrganization = {
   logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/og-image.png`,
   description: DEFAULT_DESCRIPTION,
-  // Phone and address commented out — will be added when finalized
-  // telephone: '+91-XXXXXXXXXX',
-  // email: 'info@provisaoverseas.com',
-  // address: {
-  //   '@type': 'PostalAddress',
-  //   streetAddress: '2nd Floor, SECTOR-31D, SCO 37',
-  //   addressLocality: 'Chandigarh',
-  //   addressRegion: 'Chandigarh',
-  //   postalCode: '160030',
-  //   addressCountry: 'IN',
-  // },
-  // geo: {
-  //   '@type': 'GeoCoordinates',
-  //   latitude: 30.7333,
-  //   longitude: 76.7794,
-  // },
+  telephone: '+91-84276-99682',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'SCO 181, 182, Second Floor',
+    addressLocality: 'Chandigarh',
+    addressRegion: 'Chandigarh',
+    addressCountry: 'IN',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 30.7415,
+    longitude: 76.7787,
+  },
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
