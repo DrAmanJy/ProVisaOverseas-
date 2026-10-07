@@ -17,7 +17,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-12 mb-20">
           {/* Brand */}
           <div className="space-y-8 lg:col-span-1">
-            <div className="bg-white/95 p-4 rounded-xl inline-block w-[200px]">
+            <div className=" p-4 rounded-xl inline-block w-[200px]">
               <Logo className="w-full h-auto" />
             </div>
             <p className="text-white/60 text-sm font-light leading-relaxed max-w-xs">
@@ -166,7 +166,12 @@ export function Footer() {
                   <span className="block text-white font-medium mb-1">
                     Phone & WhatsApp
                   </span>
-                  <a href="tel:+918427699682" className="hover:text-white transition-colors">084276 99682</a>
+                  <a
+                    href="tel:+918427699682"
+                    className="hover:text-white transition-colors"
+                  >
+                    084276 99682
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -185,7 +190,10 @@ export function Footer() {
                 </div>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white transition-colors flex items-center group">
+                <Link
+                  href="/contact"
+                  className="hover:text-white transition-colors flex items-center group"
+                >
                   <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all" />{" "}
                   Book a Consultation
                 </Link>

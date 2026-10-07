@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     description: DEFAULT_DESCRIPTION,
     images: [
       {
-        url: '/og-image.png',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Pro Visa Overseas — Premium Immigration & Visa Consultancy',
@@ -107,7 +107,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pro Visa Overseas | Immigration & Visa Consultancy',
     description: DEFAULT_DESCRIPTION,
-    images: ['/og-image.png'],
+    images: ['/logo.png'],
     creator: '@provisaoverseas',
     site: '@provisaoverseas',
   },
@@ -145,7 +145,7 @@ const jsonLdOrganization = {
   alternateName: 'Pro Visa Overseas Immigration Consultancy',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  image: `${SITE_URL}/og-image.png`,
+  image: `${SITE_URL}/logo.png`,
   description: DEFAULT_DESCRIPTION,
   telephone: '+91-84276-99682',
   address: {
